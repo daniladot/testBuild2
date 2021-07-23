@@ -15,6 +15,7 @@
     "cypress:run": "cypress run",
     "test": "jest",
     "tsc": "tsc",
+    "check": "npm run tsc && npm run lint-fix && npm run prettier-format",
     "prepare": "husky install"
   },
   "keywords": [],

@@ -1,0 +1,36 @@
+.InterestEventRowMobile {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  background: #ffffff;
+  padding: 0 11px;
+
+  .InterestEventRowMobile_Image {
+    width: 92px;
+    height: 87px;
+  }
+
+  .InterestEventRowMobile_ImageDiv {
+    min-width: 92px;
+    min-height: 87px;
+    width: 92px;
+    height: 87px;
+    background: url("../../public/image/InterestEventRowMobile/image.png") no-repeat center center / cover;
+  }
+
+  .InterestEventRowMobile_MainInformationWrapper {
+    margin-left: 10px;
+    padding: 5px 0;
+
+    .InterestEventRowMobile_MainInformationTitle {
+      font-size: 18px;
+      line-height: 18px;
+      font-weight: bold;
+    }
+
+    .InterestEventRowMobile_MainInformationText {
+      margin: 9px 20px 0 0;
+    }
+  }
+}

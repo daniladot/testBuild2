@@ -1,22 +1,22 @@
-/* eslint-disable  @typescript-eslint/no-explicit-any */
-import { useDispatch } from 'react-redux';
-
-interface IDisp {
-  type: string;
-  payload: string;
-}
+import MobileInterestEventRow from '../components/MobileInterestEventRow/MobileInterestEventRow';
+import MobileInterestEventBig from '../components/MobileInterestEventBig/MobileInterestEventBig';
 
 const Home = (): JSX.Element => {
-  const dispatch: any = useDispatch();
-
   return (
     <div>
-      <h1>Ghbdlsdkfldkfl</h1>
-      <div
-        onClick={(): IDisp => dispatch({ type: 'TICK', payload: 'newName' })}
-      >
-        123
-      </div>
+      {/*<MobileInterestEventRow*/}
+      {/*  // image="nkdjf"*/}
+      {/*  title='Свободная рассадка вторая строчка'*/}
+      {/*  text='Московский областной театр юного зрителя'*/}
+      {/*/>*/}
+      <MobileInterestEventBig
+        platform="E-ticket"
+        price="1500"
+        genre="комедия, мюзикл"
+        date="2 мая, СР, 19:00"
+        title="Свободная рассадка вторая строчка"
+        text="Московский областной театр юного зрителя"
+      />
     </div>
   );
 };

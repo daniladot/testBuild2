@@ -1,0 +1,8 @@
+@import "style/Variables";
+
+.MobileTitleCard{
+  font-size: $MobileFontSizeCardTitle;
+  line-height: $MobileFontSizeCardTitle;
+  font-weight: bold;
+  color: $BlackColor;
+}

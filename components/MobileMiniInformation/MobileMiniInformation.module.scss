@@ -1,0 +1,15 @@
+@import "style/Variables";
+
+.MobileMiniInformation{
+  border-left: $RedColor 1px solid;
+  padding:0 5px;
+  font-size: $MobileFontSizeCardText;
+  line-height: $MobileFontSizeCardText;
+  color: $BlackColor;
+
+  .MobileMiniInformation_PlatformText{
+    cursor: pointer;
+    text-decoration: none;
+    color: $BlueColor;
+  }
+}
